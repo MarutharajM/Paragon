@@ -1,0 +1,417 @@
+<!-- ======= Header ======= -->
+<header id="header" class="headerTarget">
+
+  <nav class="navbar navbar-expand-md fixed-top navbar-light" id="mainNav" [ngClass]="{'pt': ariaExpanded}">
+    <img class="navbar-brand text-uppercase click" src="assets/logo/pg_Intsyslogo.png" (click)="scrollToTop()" />
+
+    <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse"
+      (click)="clickMenu()" data-target="#navbarMenuContent" aria-controls="navbarMenuContent" aria-expanded="false"
+      aria-label="Toggle navigation" id="menu-button">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarMenuContent">
+      <ul class="navbar-nav ml-auto text-uppercase">
+        <li class="nav-item">
+          <a class="nav-link click" (click)="scrollToTarget('.aboutTarget')" id="aboutus-link">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link click" (click)="scrollToTarget('.serviceTarget')" id="services-link">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link click" (click)="scrollToTarget('.trainingTarget')" id="careers-link">Trainings</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link click" (click)="scrollToTarget('.trainingTarget')" id="careers-link">Recruitment</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link click" (click)="scrollToTarget('.portfolioTarget')" id="products-link">Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link click" (click)="scrollToTarget('.contactTarget')" id="contactus-link">Contact us</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+</header><!-- End Header -->
+
+<!-- ======= Intro Section ======= -->
+<section id="intro">
+  <div class="intro-container">
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/img/intro.jpg" class="d-block w-100 h-100 intro-img" alt="">
+          <div class="carousel-caption d-md-block">
+            <h5 class="title">Technical Solutions</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/training.jpg" class="d-block w-100 h-100 intro-img" alt="">
+          <div class="carousel-caption d-md-block">
+            <h5 class="title">Recruitment & Placement</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/robotics.jpg" class="d-block w-100 h-100 intro-img" alt="">
+          <div class="carousel-caption d-md-block">
+            <h5 class="title">Training</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- End Intro Section -->
+
+<main id="main">
+
+  <!-- ======= Featured Services Section Section ======= -->
+  <section id="featured-services">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-4 box">
+          <i class="ion-settings"></i>
+          <h4 class="title"><a>Technical Solution</a></h4>
+          <p class="description">PG INTSYS provide high end technical solution for all sort of business problems and
+            help for improving your business to next level. Also we are expert in
+            IR4.0/ Digital Transformation –RPA, IOT,
+            Artificial Intelligence, Block chain, Cloud,
+            Data Analytics, Robotics, Drone.
+          </p>
+        </div>
+
+        <div class="col-lg-4 box box-bg">
+          <i class="ion-ios-body-outline"></i>
+          <h4 class="title"><a>Trainings</a></h4>
+          <p class="description">HRDF Training provider, offers training in technical and non-technical areas. It is supported by IEEE SMC (System Man & Cybernetics) Malaysia chapter.</p>
+        </div>
+
+        <div class="col-lg-4 box">
+          <i class="ion-ios-bookmarks"></i>
+          <h4 class="title"><a>Recruitment & Placements</a></h4>
+          <p class="description">To deliver professional and proficient hiring solutions to meet every client’s
+            requirements at the right time & to be a bridge between aspiring talent and career aspirations</p>
+        </div>
+
+      </div>
+    </div>
+  </section><!-- End Featured Services Section -->
+
+  <!-- ======= About Us Section ======= -->
+  <section id="about" class="aboutTarget">
+    <div class="container" data-aos="fade-up">
+
+      <header class="section-header">
+        <h3>About Us</h3>
+        <p>PG INTSYS is a technical solution, recruitment and training providing company. As a technology solution
+          provider gives comprehensive state of solutions comprising of infrastructure consultancy, on/offsite services,
+          custom software and web development , software and web application testing, and enterprise architecture
+          consulting.</p>
+      </header>
+
+      <div class="row about-cols justify-content">
+
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="about-col">
+            <div class="img">
+              <img src="assets/img/about-mission.jpg" alt="" class="img-fluid">
+              <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
+            </div>
+            <h2 class="title"><a>Our Mission</a></h2>
+            <p>
+              Our team is dedicated to deliver innovative & quality system for society, communities, industries and
+              clients to solve their challenges to make it simple by integrating applications for various sectors. </p>
+          </div>
+        </div>
+
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="about-col">
+            <div class="img">
+              <img src="assets/img/about-vision.jpg" alt="" class="img-fluid">
+              <div class="icon"><i class="ion-ios-eye-outline"></i></div>
+            </div>
+            <h2 class="title"><a>Our Vision</a></h2>
+            <p>
+              To become the global leader in providing the innovative solutions.</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section><!-- End About Us Section -->
+
+  <!-- ======= Services Section ======= -->
+  <section id="services" class="serviceTarget">
+    <div class="container-md" data-aos="fade-up">
+
+      <header class="section-header wow fadeInUp">
+        <h3>Services</h3>
+      </header>
+
+      <div class="row">
+
+        <div class="col-lg-4 col-md-6 box" data-aos="fade-up" data-aos-delay="100"
+          *ngFor="let s of services; let i = index">
+          <div class="card">
+            <div class="row no-gutters padding-none">
+              <div class="col-2 icon-container">
+                <div class="icon"><i class="{{s.icon}}"></i></div>
+              </div>
+              <div class="col-10">
+                <div class="card-body">
+                  <h5 class="title">{{s.title}}</h5>
+                  <p>{{s.caption}}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section><!-- End Services Section -->
+
+  <!-- ======= Call To Action Section ======= -->
+  <section id="trainings" class="trainingTarget">
+    <div class="container" data-aos="zoom-in">
+      <h3 class="section-title text-uppercase">Trainings</h3>
+
+      <div class="row">
+
+        <div class="col-lg-4 col-md-6 box" data-aos="fade-up" data-aos-delay="100"
+          *ngFor="let t of trainings; let i = index">
+          <div class="card">
+            <div class="row no-gutters padding-none">
+              <div class="col-2 icon-container">
+                <div class="icon"><i class="{{t.icon}}"></i></div>
+              </div>
+              <div class="col-10">
+                <div class="card-body">
+                  <h5 class="title">{{t.title}}</h5>
+                  <!-- <p>{{t.caption}}</p> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section><!-- End Call To Action Section -->
+
+   <!-- ======= Recruitment ======= -->
+   <section id="trainings" class="trainingTarget">
+    <div class="container" data-aos="zoom-in">
+      <h3 class="section-title text-uppercase">Recruitment & Contract Staffing</h3>
+
+      <div class="row">
+
+        <div class="col-lg-4 col-md-6 box" data-aos="fade-up" data-aos-delay="100"
+          *ngFor="let t of recruitments; let i = index">
+          <div class="card">
+            <div class="row no-gutters padding-none">
+              <div class="col-2 icon-container">
+                <div class="icon"><i class="{{t.icon}}"></i></div>
+              </div>
+              <div class="col-10">
+                <div class="card-body">
+                  <h5 class="title">{{t.title}}</h5>
+                  <!-- <p>{{t.caption}}</p> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section><!-- End Call To Action Section -->
+
+  <!-- ======= Portfolio Section ======= -->
+  <section id="portfolio" class="section-bg portfolioTarget">
+    <div class="container" data-aos="fade-up">
+
+      <header class="section-header">
+        <h3 class="section-title">Products</h3>
+      </header>
+
+      <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <div class="card h-100">
+            <a><img class="card-img-top" src="assets/img/schl.jpg" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a>School Management system</a>
+              </h4>
+              <p class="card-text">School Management system has lot more efficient features to manage your school for
+                all end to end problem, Which has features like Communication with parents, Attendance, Payroll, Fee
+                Definition and Online Payment.
+                It supports all Web, iOS and Android platforms.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <div class="card h-100">
+            <a><img class="card-img-top" src="assets/img/hr1.jpg" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a>HR Management system</a>
+              </h4>
+              <p class="card-text">HR Management system has lot more efficient features to manage your organization for
+                all basic end to end problems, Which has features like Communication, Announcement, Attendance, Payroll,
+                Pay slip generation and Expense tracking system.
+                It supports all Web, iOS and Android platforms.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <div class="card h-100">
+            <a><img class="card-img-top" src="assets/img/ecom.jpg" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a>E-Commerce</a>
+              </h4>
+              <p class="card-text">eCommerce (also known as electronic commerce) is the process of buying and selling of
+                products or services, making money transfers, and transferring data over an electronic medium
+                (Internet). This network allows people to do business without the constraint of distance and time.
+                PG INTSYS developed multiple eCommerce application for different business, which has support in Web,
+                iOS and Android platform.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ======= Contact Section ======= -->
+  <section id="contact" class="section-bg contactTarget">
+    <div class="container" data-aos="fade-up">
+
+      <div class="section-header">
+        <h3>Contact Us</h3>
+      </div>
+
+      <div class="row contact-info">
+
+        <div class="col-md-4">
+          <div class="contact-address">
+            <i class="ion-ios-location-outline"></i>
+            <h3>Address</h3>
+            <address>No 9, Jalan PJS 8/9. Bandar Sunway
+              46150 Petaling Jaya, Selangor, Malaysia.</address>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="contact-phone">
+            <i class="ion-ios-telephone-outline"></i>
+            <h3>Phone Number</h3>
+            <p><a href="+60 17-950 0361">+60 17-950 0361</a></p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="contact-email">
+            <i class="ion-ios-email-outline"></i>
+            <h3>Email</h3>
+            <p><a href="mailto:info@pgintsys.com"> info@pgintsys.com</a></p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section><!-- End Contact Section -->
+
+</main>
+
+<!-- ======= Footer ======= -->
+<footer id="footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-3 col-md-6 footer-info">
+          <h3>PG INTSYS SDN BHD</h3>
+          <p>PG INTSYS SDN BHD previously known as PG TECH solution was
+            established in 2014 to deliver best solution and services to the client to
+            excel in their objective.</p>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>Links</h4>
+          <ul>
+            <li class="click" (click)="scrollToTop()"><i class="ion-ios-arrow-right"></i> <a>Home</a>
+            </li>
+            <li class="click" (click)="scrollToTarget('.aboutTarget')"><i class="ion-ios-arrow-right"></i> <a>About
+                us</a></li>
+            <li class="click" (click)="scrollToTarget('.serviceTarget')"><i class="ion-ios-arrow-right"></i>
+              <a>Services</a></li>
+            <li class="click" (click)="scrollToTarget('.trainingTarget')"><i class="ion-ios-arrow-right"></i>
+              <a>Trainings</a></li>
+              <li class="click" (click)="scrollToTarget('.trainingTarget')"><i class="ion-ios-arrow-right"></i>
+                <a>Recruitment</a></li>
+              <li class="click" (click)="scrollToTarget('.')"><i class="ion-ios-arrow-right"></i>
+                <a>Products</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-contact">
+          <h4>Contact Us</h4>
+          <p>
+            PG INTSYS SDN BHD
+            No:1036, Block A3, Leisure Commerce Square
+            No 9, Jalan PJS 8/9. Bandar Sunway
+            46150 Petaling Jaya, Selangor, Malaysia. <br>
+            <strong>Phone:</strong> +60 17-950 0361<br>
+            <strong>Email:</strong> <a href="mailto:info@pgintsys.com"> info@pgintsys.com</a><br>
+          </p>
+
+          <div class="social-links">
+            <a class="twitter click"><i class="ion-social-twitter"></i></a>
+            <a class="facebook click"><i class="ion-social-facebook"></i></a>
+            <a class="instagram click"><i class="ion-social-instagram"></i></a>
+            <a class="google-plus click"><i class="ion-social-google"></i></a>
+            <a class="linkedin click"><i class="ion-social-linkedin"></i></a>
+          </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-newsletter">
+          <h4>Work With Us</h4>
+          <p>Strive to be the preferred recruitment partner to our clients.</p>
+          <a href="mailto:job@pgintsys.com" type="submit">Submit Resume</a>
+          
+          <img src="assets/logo/training.jpeg" class="d-block w-60 h-60" style="width: 60%;margin:15px;" alt="">
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</footer><!-- End Footer -->
+
+<!--Scroll to top-->
+<a class="back-to-top click" (click)="scrollToTop()" [ngClass]="{'show-scrollTop': windowScrolled}">
+  <i class="ion-chevron-up"></i>
+</a>

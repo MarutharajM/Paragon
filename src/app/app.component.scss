@@ -403,6 +403,18 @@ section {
 .left{
   text-align: left;;
 }
+.iconBadge{
+  width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #00000040;
+    text-align: center;
+    border-radius: 50%;
+    margin-top: -10px;
+    margin-left: -10px;
+}
 .policy-cols{
   padding: 20px;;
 }
@@ -430,7 +442,7 @@ section {
 }
 .principal-cols{
   background: whitesmoke;
-  padding: 20px;;
+  padding: 30px;;
 }
 .principal-col-data{
   padding:10px;
@@ -568,16 +580,19 @@ section {
 /* Call To Action Section
 --------------------------------*/
 #trainings {
-  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)),
-    url(../assets/img/bck.jpeg) fixed center center;
+  // background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)),
+  //   url(../assets/img/bck.jpeg) fixed center center;
   background-size: cover;
   padding: 60px 0;
+  background: black;
 }
 
 #trainings .section-title {
   text-align: center;
 }
-
+.center{
+  text-align: center;
+}
 #trainings h3 {
   color: #fff;
   font-size: 28px;
@@ -586,6 +601,7 @@ section {
 
 #trainings p {
   color: #fff;
+  font-size: 20px;
 }
 
 #trainings .row {

@@ -8,7 +8,7 @@ import jump from 'jump.js';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  title = 'PG InitSys';
+  title = 'PARAGON TECH SOLUTIONS LTD';
   ariaExpanded: boolean = false;
   windowScrolled: boolean = false;
 

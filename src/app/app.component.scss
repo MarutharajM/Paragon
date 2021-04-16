@@ -1,11 +1,12 @@
 @import "../styles/variables.scss";
 
 .navbar-shrink {
-  height: 60px !important;
+  height: 70px !important;
+  
   background-color: white !important;
 
   img {
-    height: 40px !important;
+    height: 60px !important;
   }
 
   .nav-link {
@@ -30,7 +31,8 @@
   padding: 0;
 
   img {
-    height: 60px;
+    height: 70px;
+    
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -ms-transition: all 0.5s ease;
@@ -67,11 +69,12 @@
 
 @media (max-width: 767px) {
   .navbar {
-    height: 60px !important;
+    height: 70px !important;
+    
     background-color: white !important;
 
     img {
-      height: 40px !important;
+      height: 60px !important;
     }
 
     .nav-item {
@@ -88,6 +91,7 @@
 
     .navbar-collapse {
       background-color: white !important;
+      padding: 15px;
     }
   }
 }
@@ -116,7 +120,7 @@
 }
 
 #intro .title {
-  color: #fff;
+  color: cornsilk;
   margin-bottom: 30px;
   font-size: 48px;
   font-weight: 700;
@@ -386,14 +390,52 @@ section {
   z-index: 10;
 }
 
-#about .about-col {
+#about  .about-col {
   background: #fff;
   border-radius: 0 0 4px 4px;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
   margin-bottom: 20px;
   height: 100%;
 }
+.principal-col i{
+  color: $primary-color;
+}
+.left{
+  text-align: left;;
+}
+.policy-cols{
+  padding: 20px;;
+}
+.policySection{
+  padding: 60px 0 0px 0;
+  background: #dee2e6;
+}
 
+ .principal-col {
+  background: #fff;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+  margin-bottom: 20px;
+  height: 100%;
+  padding: 10px;
+}
+.principal-header{
+  padding: 60px 0 0px 0px;
+}
+.principal-col:hover {
+  box-shadow: 0px 2px 8px $highlight-color;
+  .title {
+    color: $highlight-color !important;
+  }
+}
+.principal-cols{
+  background: whitesmoke;
+  padding: 20px;;
+}
+.principal-col-data{
+  padding:10px;
+
+}
 #about .about-col .img {
   position: relative;
 }
@@ -502,7 +544,7 @@ section {
 #services .card {
   border: none !important;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
-  height: 102px !important;
+  min-height: 102px !important;
 }
 
 #services .card:hover {
@@ -607,6 +649,7 @@ section {
 
 .portfolio-container {
   padding-top: 30px;
+  justify-content: center;
 }
 
 .portfolio-container .card {
@@ -652,6 +695,7 @@ section {
 #contact .contact-info {
   margin-bottom: 20px;
   text-align: center;
+  justify-content: center;
 }
 
 #contact .contact-info i {
